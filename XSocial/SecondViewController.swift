@@ -15,7 +15,9 @@ class SecondViewController: BaseViewController {
         self.view.backgroundColor = UIColor.redColor()
         // Do any additional setup after loading the view.
     }
-
+   public func saybaybay() {
+        print("baybay")
+    }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

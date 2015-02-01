@@ -381,6 +381,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = XSocial/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_MODULE_NAME = SwiftXSocial;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "XSocial/XSocial-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -394,6 +395,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = XSocial/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_MODULE_NAME = SwiftXSocial;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "XSocial/XSocial-Bridging-Header.h";
 			};
@@ -452,6 +454,7 @@
 				68CFED641A7DF74A005D5E6A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		68CFED651A7DF74A005D5E6A /* Build configuration list for PBXNativeTarget "XSocialTests" */ = {
 			isa = XCConfigurationList;
@@ -460,6 +463,7 @@
 				68CFED671A7DF74A005D5E6A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

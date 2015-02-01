@@ -7,9 +7,11 @@
 //
 
 #import "Demo.h"
-
+#import "SwiftXSocial-swift.h"
 @implementation Demo
 - (void)sayHello {
     NSLog(@"dd   heihei");
+    SecondViewController *second = [[SecondViewController alloc]init];
+    [second saybaybay];
 }
 @end
