@@ -13,7 +13,8 @@ class FirstViewController: BaseViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         initUI()
-       var de = DemoViewController()
+       var de = Demo()
+        de.sayHello()
     }
     
     func initUI() {

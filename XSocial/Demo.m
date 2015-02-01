@@ -9,5 +9,7 @@
 #import "Demo.h"
 
 @implementation Demo
-
+- (void)sayHello {
+    NSLog(@"dd   heihei");
+}
 @end
