@@ -13,10 +13,28 @@ class SecondViewController: BaseViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = UIColor.redColor()
-        // Do any additional setup after loading the view.
+        initUI()
     }
-   public func saybaybay() {
+    func saybaybay() {
         print("baybay")
+    }
+    func initUI() {
+        
+        //rightButton
+        var button = UIButton(frame: CGRectMake(0, 0, 44, 44))
+        button.setTitle("test", forState: UIControlState.Normal)
+        button.setTitleColor(UIColor.grayColor(), forState: UIControlState.Normal)
+        button.addTarget(self, action: "rightButtonItemPress:", forControlEvents: UIControlEvents.TouchUpInside)
+        let buttonitem = UIBarButtonItem(customView: button)
+        self.navigationItem.rightBarButtonItem = buttonitem
+        
+        //scrollView
+        
+    }
+    
+    func rightButtonItemPress(sender:UIButton) {
+//        var push = PushViewController(nibName: "PushViewController", bundle: nil)
+//        self.showViewController(push, sender: self)
     }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
