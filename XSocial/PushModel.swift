@@ -8,10 +8,17 @@
 
 import UIKit
 
+let PushCellForPush:String = "PushCellForPush";
+
+let PushCellForAsk:String = "PushCellForAsk";
+
+let PushCellForQuestion:String = "PushCellForQuestion";
+
 class PushModel: BaseModel {
-    var cellType:Array<PushTableVIewCellType>
+    let PushCellForPush:String = "PushCellForPush";
+    var cellType:Array<String>
     init(rowNumber:Int) {
-    cellType = Array<PushTableVIewCellType>(count: rowNumber, repeatedValue:PushCellForNone)
+    cellType = Array<String>(count: rowNumber, repeatedValue:"")
         super.init(number:rowNumber)
         cellType[0] = PushCellForPush
         cellType[1] = PushCellForAsk

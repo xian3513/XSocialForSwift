@@ -14,5 +14,5 @@ typedef enum {
     PushCellForQuestion
 }PushTableVIewCellType;
 @interface PushTableViewCell : UITableViewCell
-- (id)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier type:(PushTableVIewCellType)type;
+- (id)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier;
 @end
